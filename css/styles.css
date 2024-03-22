@@ -626,11 +626,10 @@ style {
     fill: #2e2f42;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal .modal-overlay-btn:hover + .iconsx {
+.iconsx:hover {
     fill: #ffffff;
 }
-
-.modal .modal-overlay-btn:focus + .iconsx {
+.iconsx:focus {
     fill: #ffffff; 
 
 }
