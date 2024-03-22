@@ -631,8 +631,10 @@ style {
 }
 
 .modal-overlay-btn .iconsx:focus {
-    fill: #ffffff;
+    fill: #ffffff; 
+
 }
+
 .modal-text {
     font-weight: 500;
     font-size: 16px;
@@ -724,6 +726,9 @@ style {
     align-items: center;
     justify-content: center;
     fill: transparent;
+}
+.iconsch{
+    fill: #f4f4fd;
 }
 .checkbox-input:checked + .checkbox-label span{
     fill: #404bbf;
