@@ -623,14 +623,15 @@ style {
     border: none;
 }
 .iconsx {
+    fill: #2e2f42;
     transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.modal .modal-overlay-btn:hover + .iconsx{
-    fill: #FFFFFF;
+.modal-overlay-btn:hover + .iconsx{
+    fill: #ffffff;
 }
 
-.modal .modal-overlay-btn:focus + .iconsx{
-    fill: #FFFFFF;
+.modal-overlay-btn:focus + .iconsx{
+    fill: #ffffff;
 }
 .modal-text {
     font-weight: 500;
